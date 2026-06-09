@@ -1,0 +1,31 @@
+title: "Notes Vault"
+baseURL: ""
+language: "en"
+
+outputDir: "public"
+contentDir: "content"
+themeDir: "../"
+theme: "kosh-theme-parchment"
+cacheDir: ".kosh-cache"
+
+itemsPerPage: 10
+
+menu:
+  - name: "Home"
+    url: "/"
+
+navbar:
+  home:
+    title: "Notes Vault"
+  section:
+    title: "Notes Vault"
+
+features:
+  generators:
+    isSitemapEnabled: false
+    isRSSEnabled: false
+    isPWAEnabled: false
+    search:
+      isEnabled: true
+    graph:
+      isEnabled: false

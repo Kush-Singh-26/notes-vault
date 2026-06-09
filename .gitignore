@@ -1,0 +1,8 @@
+# Kosh build outputs and caches
+public/
+.kosh-cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+*.local

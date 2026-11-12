@@ -67,7 +67,7 @@ jobs:
 
       - name: Build Site
         working-directory: notes-vault
-        run: kosh build --baseurl https://kush-singh-26.github.io/notes-vault/
+        run: kosh build --baseurl /notes-vault/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
